@@ -1,4 +1,4 @@
-FROM ubuntu:hirsute
+FROM ubuntu:21.10
 ENV DEBIAN_FRONTEND=noninteractive 
 COPY do_build.sh /root
 RUN chmod +x /root/do_build.sh
